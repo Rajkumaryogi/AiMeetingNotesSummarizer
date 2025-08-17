@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000/api/summary";
+const API_BASE = "https://aimeetingnotessummarizer.onrender.com/api/summary";
 
 async function generateSummary() {
   const transcript = document.getElementById("transcript").value;

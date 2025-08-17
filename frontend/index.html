@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meeting Notes Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>AI Meeting Notes Summarizer</h1>
+
+  <textarea id="transcript" placeholder="Paste transcript here"></textarea><br>
+  <input id="instruction" placeholder="Enter instruction e.g. summarize in bullet points" /><br>
+  <button onclick="generateSummary()">Generate Summary</button>
+
+  <h2>Generated Summary</h2>
+  <textarea id="summary" placeholder="Generated summary will appear here" title="Generated Summary"></textarea><br>
+
+  <input id="recipients" placeholder="Enter emails, comma separated" /><br>
+  <button onclick="sendEmail()">Send via Email</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
